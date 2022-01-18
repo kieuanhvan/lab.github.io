@@ -1,0 +1,164 @@
+.float_left1{
+			float: left;
+			padding-right: 10px;
+			float: left;
+			font-size: 25px;
+			color: #fa00c8;
+			font-weight: 900;
+		}
+		.float_left2{
+			float: right;
+			max-width: 50px;
+		}
+
+		/*dieu chinh .......*/
+		#name{
+			float: left;
+			font-size: 25px;
+			color: #00fa1d;
+			font-weight: 900;
+			text-shadow: 5px -4px 5px #fa9a00;
+		}
+		#sdt{
+			float: left;
+			float: left;
+			font-size: 25px;
+			color: #00fa1d;
+			font-weight: 900;
+			text-shadow: 5px -4px 5px #fa9a00;
+		}
+		#address{
+			float: left;
+			float: left;
+			font-size: 25px;
+			color: #00fa1d;
+			font-weight: 900;
+			text-shadow: 5px -4px 5px #fa9a00;
+		}
+		#que{
+			float: left;
+			float: left;
+			font-size: 25px;
+			color: #00fa1d;
+			font-weight: 900;
+			text-shadow: 5px -4px 5px #fa9a00;
+		}
+		#menu_side{
+	/*background-color: #243e47;*/
+	overflow: hidden;
+
+}
+#send_massage{
+	font-size: 150%;
+	text-decoration: none;
+	color: #ff007b;
+	font-weight: 900;
+
+}
+div > a:hover{
+	/*background-color: #04d112;*/
+	color: red;
+	text-decoration: underline;
+	transition: 0.4s;
+	/*transition-delay: 0.05s;*/
+	font-size: 10px;
+}
+.float_left{
+	float: left;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: sans-serif;
+	color: #0000ed;
+	font-weight: bold;
+	padding: 22px;
+	display: block;
+	float: left;
+	text-shadow: 5px -3px 5px #f716d2;
+	
+}
+.float_right{
+		float: right;
+		text-decoration: none;
+		font-size: 20px;
+		font-family: sans-serif;
+		color: #0000ed;
+		font-weight: bold;
+		padding: 22px;
+		display: block;
+		text-shadow: 5px -3px 5px #f716d2;
+	}
+
+#container_end{
+	/*width: 1200px;*/
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+#float_left_end{
+	flex: 50%;
+	background-image: url(https://cutewallpaper.org/21/background-gif-html/15-CSS-Animated-Backgrounds-Pintire.gif);
+	padding-left: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#float_right_end{
+	flex: 50%;
+	background-color: #ccfce2;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+}
+/*lien he-------------------*/
+#container_end1{
+	display: flex;
+	flex-wrap: wrap;
+
+}
+.item_info{
+	/*flex: 50%;*/
+	width: 50%;
+	float: left;
+	font-size: 20px;
+}
+.title_end{
+	font-size: 26px;
+	color: #ffb247;
+	text-shadow: 5px -3px 5px #47ff8a;
+	font-weight: 900;
+	text-align: center;
+}
+/*lienhe*/
+#lien_he{
+	text-align: center;
+	font-size: 35px;
+	color: #4d47ff;
+
+
+}
+#fix_icons{
+	width: 200px	;
+}
+.icons{
+	padding-top: 400px;
+	font-size: 40px;
+	text-align: center;
+}
+/*cac thac mac*/
+#thacmac{
+	font-size: 33px;
+	color: #ffb805;
+	font-weight: 900;
+
+}
+body{
+	background-color: #fcffe8;
+}
+/*chinh sua phan */
+button{
+	color: red;
+	background-color: #45303a;
+	font-size: 20px;
+	/*flex-wrap: nowrap;*/
+}

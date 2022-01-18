@@ -1,0 +1,84 @@
+.container{
+	width: 100%; margin: 0 auto;
+	/*height: 3000px;*/
+}
+.container > header{
+	min-height: 400px;
+	background: url(https://apolyorg.files.wordpress.com/2019/04/xbanner-trang-lien-he-moi.jpg.pagespeed.ic_.fqvwhe7pcx.jpg);
+	background-size: 100% 100%;
+}
+.container > nav{
+	height: 45px;
+	background: orangered;
+}
+.container > main > article {
+	width: 75%;
+	min-height: 610px;		/*chia bo cuc 75% of 100%*/
+	float: left;
+	background-color: lightblue;
+	margin-bottom: 2px;
+
+}
+.container > main > aside{
+	width: 24.6%;
+	min-height: 610px;		/*chia bo cuc 24% of 100%*/
+	float: right;	
+	background: lightblue;
+	margin-bottom: 2px;
+}
+.container > footer{
+	height: 120px;
+	clear: both;
+	background: #005943;
+	border-top: 5px double orangered; /*them mau vien top*/
+	background: -webkit-linear-gradient(140deg,#E41980 10%,#67146E 60%);
+	background: linear-gradient(140deg,#E41980 10%,#67146E 70%);
+	padding-top: 60px;
+}
+.container nav a {
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	line-height: 45px;
+	margin-right: 10px;
+	display: block;
+	float: left;
+	text-transform: uppercase;
+
+}
+.container nav a:hover{
+	background-color: #f0cc05;
+	color: #3d3b2e;
+	font-weight: 900;
+}
+.container nav{
+	padding-left: 380px;
+}
+.container aside ul{
+	margin: 0; padding: 20px; /*list-style: t;*/
+
+}
+.container aside ul li{
+	border-bottom: 1px solid darkcyan;
+	padding: 10px 0 10px 30px;
+	/*background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4geg9k-qokP_UmVwEaGpmUCBVUGG2X0MEiA&usqp=CAU) no-repeat 5px 13px;*/
+}
+.container aside ul li a {
+	color: #0800ff;
+	text-decoration: none;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.kieuvan:hover {
+	background-color: #f0cc05;
+	color: #3d3b2e;
+	font-weight: 900;
+	text-decoration: underline;
+}
+footer{
+	text-align: center;
+	font-weight: 900;
+	background-color: black;
+	color: white;
+}

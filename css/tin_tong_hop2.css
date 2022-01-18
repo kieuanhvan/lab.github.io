@@ -1,0 +1,77 @@
+.container{
+	/*width: 1300px;*/
+	margin: 0;
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+#tinxemnhieu{
+	margin-top: 35px;
+	float: left;
+	/*margin-right: 10px;*/
+	width: 500px;
+	/*text-align: center;*/
+
+}
+
+
+#tinthethao{
+	margin-top: 35px;
+	/*margin-right: 10px;*/
+	float: left;
+	width: 500px;
+	/*text-align: center;*/
+	
+}
+
+#tincongnghe{
+	margin-top: 35px;
+	float: right;
+	width: 500px;
+	overflow: hidden;
+
+}
+div p a{
+	text-decoration: none;
+	color: #0048ff;
+	font-size: 120%;
+	
+
+}
+div p {
+	border:3px solid #f4bcf7;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 20px 10px 20px 10px;
+	background-color: #bcf7f0;
+	margin-right: 10px;
+
+}
+
+div > p > a:hover{
+	color: #002aff;
+	font-weight: 900;
+}
+.box{
+	/*border: 3px solid #b5f089;*/
+	width: 200px;
+
+}
+h3{
+	/*margin-left: 0px;*/
+	background: #f0cc05;
+	margin: 0px;
+	padding: 20px;
+	text-align: center;
+}
+.no{
+	font-weight: 500;
+	font-size: 20px;
+
+}
+#fix_ma{
+	margin-right: 10px;
+}
+body{
+	background-color: #d7f7bc;
+}
